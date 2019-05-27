@@ -7,60 +7,72 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stu's Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Your Name</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <nav class="navbar bg-light navbar-light pl-5 ml-5">
+        <a class="navbar-brand h1 text-light active bg-info float-left p-3" href="index.html">Stu Eliades</a>
 
-    <div id="main-container" class="container">
+        <ul class="navbar-nav float-right flex-row">
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+<br>
+    <div class="card mx-5 p-2 col-9">
         <section class="main-section">
-            <h1>Portfolio</h1>
+            <h2>Portfolio</h2>
+                <div class="row my-2">
+                    <div class="col-6">
+                    <img class="img-responsive col-12 float-left" src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
 
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+                    <h3 class="position-absolute col-12 bg-info text-light py-1 px-4">Word Guess</h3>
+                    </div>
+                
+                    <div class="col-6">
+                    <img class="img-responsive col-12 float-left" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-                <h3>Word Guess</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+                    <h3 class="position-absolute col-12 bg-info text-light py-1 px-4">RPG Game</h3>
+                    </div>  
+                </div>
 
-                <h3>RPG Game</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+                <div class="row my-2">
+                    <div class="col-6">    
+                    <img class="img-responsive col-12 float-left" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
-                <h3>Trivia Game</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+                    <h3 class="position-absolute col-12 bg-info text-light py-1 px-4">Trivia Game</h3>
+                    </div>   
+                    <div class="col-6">
+                    <img class="img-responsive col-12 float-left" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
 
-                <h3>Rutgers Info Widget</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+                    <h3 class="position-absolute col-12 bg-info text-light py-1 px-4">Rutgers Info Widget</h3>
+                    </div>
+                </div> 
 
-                <h3>Rock Paper Scissors</h3>
-            </div>
+                <div class="row my-2">
+                    <div class="col-6">
+                    <img class="img-responsive col-12 float-left" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
 
+                    <h3 class="position-absolute col-12 bg-info text-light py-1 px-4">Rock Paper Scissors</h3>
+                    </div>
+                </div>
+        </section>
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
+    <div class="footer mt-5 py-3 bg-dark text-light text-center">
+        Copyright &copy;
+    </div>
+
 </body>
 
 </html>

@@ -7,47 +7,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stu's Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Your Name</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <nav class="navbar bg-light navbar-light pl-5 ml-1">
+        <a class="navbar-brand h1 text-light active bg-info float-left p-3" href="index.html">Stu Eliades</a>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
+        <ul class="navbar-nav float-right flex-row">
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-            <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+    <div id="main-container" class="container"><br>
+        <section class="card mx-1 p-2">
+            <h2>About Me</h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
+        <div class="row">
+            <img class="img-responsive col-md-4 h-50" src="assets/images/cat.jpg" alt="Your Name">
+            <div class="col-md-8">
+            <p class="mx-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
                 porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui
                 massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus
                 vitae sollicitudin consectetur.</p>
-
-            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
+            </div>
+            <p class="mx-3">Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
                 eros iaculis, pulvinar quam eget, egestas mauris.</p>
 
-            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
+            <p class="mx-3">Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
                 et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
+            
+        </div>
         </section>
 
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
+    <div class="footer mt-5 py-3 bg-dark text-light text-center">
+        Copyright &copy;
+    </div>
 </body>

@@ -7,54 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stu's Portfolio</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 
 </head>
 
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Your Name</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+    <nav class="navbar bg-light navbar-light pl-5 ml-1">
+        <a class="navbar-brand h1 text-light active bg-info float-left p-3" href="index.html">Stu Eliades</a>
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit">
-            </form>
-
-        </section>
-        
+        <ul class="navbar-nav float-right flex-row">
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary m-2 p-2" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <div class="card mx-5 p-2 col-6">
+        <h2>Contact</h2>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" id="comment" rows="5" placeholder="Enter comment"
+                    name="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
+
+    <div class="footer mt-5 py-3 bg-dark text-light text-center">
+        Copyright &copy;
+    </div>
+
 </body>
 
 </html>
